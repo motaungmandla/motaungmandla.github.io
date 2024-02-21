@@ -3,10 +3,10 @@ layout: essay
 type: essay
 title: "he Vital Role of Domestic Animals: Nurturing Human Civilization"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2022-02-06
 published: true
 labels:
-  - Engineering
+  - Agriculture
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/cow.jpg">
