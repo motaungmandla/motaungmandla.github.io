@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/sn-rockpaper.jpg
+image: img/sn-rockpaper.png
 title: "rock_paper_scissors"
 date: 2022
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "A graphical game I created with python and kivy."
 ---
 
-<img class="img-fluid" src="../img/sn-rockpaper.jpeg">
+<img class="img-fluid" src="../img/sn-rockpaper.png">
 
 Rock_paper_scissors is a popular game where the players use  their hands to choose between paper, rocks and scissors.
 
