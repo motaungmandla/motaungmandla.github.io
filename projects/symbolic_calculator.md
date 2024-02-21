@@ -12,7 +12,8 @@ labels:
 summary: "A calculator app I developed to symplify use ofsympy."
 ---
 
-<img class="img-fluid" src="../img/calculator.png">
+<img class="img-fluid" src="../img/calc.jpg">
+
 
 CAlgebraic calculators are essential tools in various fields such as mathematics, science, engineering, finance, and even everyday life. Here are some reasons why we need algebraic calculators:
 <hr>
