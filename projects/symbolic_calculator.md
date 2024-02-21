@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/caculator.jpeg
-title: "Cotton"
+title: "Algebraic Calculator"
 # All dates must be YYYY-MM-DD format!
 date: 2022-04-12
 published: true
