@@ -2,59 +2,107 @@
   "basics": {
     "name": "Motaung Mandla",
     "label": "Student",
-    "picture": "https://github.com/motaungmandla.png",
+    "picture": "https://github.com/motaung247aung.png",
     "email": "maxphin21@gmail.com",
     "phone": "+266 6397 3129",
     "website": "https://motaungmandla.github.io",
-    "summary": "I am an undergraduate student in Computer Science in the Department of mathematics and Computer Sciences at the National University of Lesotho. I expect to graduate  2026.",
-    "location": { "address": "", "postalCode": "Maseru 100", "city": "Maseru", "countryCode": "LS", "region": "Msu" },
+    "summary": "I am studying Computer Science in the Department of Mathematics and Computer Sciences at the National University of Lesotho. I expect to graduate in 2027.",
+    "location": { "address": "", "postalCode": "P.O box 500", "city": "Maseru", "countryCode": "LS", "region": "Roma" },
     "profiles": [
-      { "network": "github", "username": "motaungmandla", "url": "http://github.com/motaungmandla" },
-      
+      { "network": "github", "username": "motaung247aung", "url": "http://github.com/motaung247aung" }
+  
+     
     ]
   },
   "interests": [
-    { "name": "Software Development" },
+    { "name": "Data Analysis" },
     { "name": "Data Mining" },
-    { "name": "Natural Language Processing" },
-    { "name": "Deep Learning" },
-    { "name": "Game Development" }
-    { "name": "Machine Learning" }
+    { "name": "Neural Networks" },
+    { "name": "Software Development" },
+    { "name": "Computer Vision" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C++", "Dart", "Javascript", "Python", "R", "Julia" ]
+      "keywords": [ "Python", "C++", "Perl", "R", "Ruby" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ Windows 10", "Kali", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
     }
   ],
   "education": [
     {
-      "institution": "National University of Lesotho, Maseru, Roma",
+      "institution": "National University of Lesotho, Roma, Lesotho",
       "area": "Computer Science (expected Spring, 2026)",
       "studyType": "B.S.",
       "startDate": "2022-09-05",
-      "endDate": "2026",
-      "courses": [" mathematics", "computer science"
+      "endDate": "Present",
+      "courses": ["Mathematics", "Computer Science"
       ]
     }
   ],
- 
-  "awards": [
+  "work": [
     {
-      "title": "Mathematics award ",
-      "date": "2021-Present",
-      "awarder": "Gauteng District (DBE)",
-      "summary": "Scholarships awarded to overall top candidate in high school curriculum South African public schools."
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Machine learning and introduction to artificial intelligence under the guidance of Mr [Moseli Motseohli](https://deepsmoseli.github.io",
+        "Drive, design and build student-community projects for at the NUL"
+      ]
     },
     {
-      "title": "First place",
-      "date": "2021",
-      "awarder": "Department of Basic Education (RSA)",
-      "summary": "I won first place in my region See my portfolio site for more details."
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, hardware and networking issues over the phone"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Design firmware for distributed weather sensor network",
+        "Maintain custom data collection and storage infrastructure"
+      ]
+    },
+    {
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Candidate in Mathematics (Matric)",
+      "date": "2020",
+      "awarder": "DBE, South Africa",
+      "summary": ""
+    },
+    {
+      "title": "First place in general academic performance",
+      "date": "2020",
+      "awarder": "Gauteng West District",
+      "summary": ""
     }
   ],
   "references": [
