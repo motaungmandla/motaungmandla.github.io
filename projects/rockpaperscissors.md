@@ -11,7 +11,7 @@ labels:
 summary: "A graphical game I created with python and kivy."
 ---
 
-<img class="img-fluid" src="../imgsn-rockpaper.jpeg">
+<img class="img-fluid" src="../img/sn-rockpaper.jpeg">
 
 Rock_paper_scissors is a popular game where the players use  their hands to choose between paper, rocks and scissors.
 
