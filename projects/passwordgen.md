@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Strong-password-generator.png
 title: "Password Generator"
 date: 2022
 published: true
@@ -13,9 +13,7 @@ summary: "Password generator project is a good project for learning about the ra
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/Strong-password-generator.png" class="img-thumbnail" >
 </div>
 
 Password generator is a program that helps clients to come up with strong passwords as per the requirements of most websites.The project in very convinient for someone who wants to save time while also adhering to the requirements of almost any log in system nowadays.
