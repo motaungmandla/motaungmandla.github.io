@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "he Vital Role of Domestic Animals: Nurturing Human Civilization"
+title: "The Vital Role of Domestic Animals: Nurturing Human Civilization"
 # All dates must be YYYY-MM-DD format!
 date: 2022-02-06
 published: true
