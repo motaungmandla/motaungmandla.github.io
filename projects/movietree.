@@ -3,8 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>movietree.org</title>
+<style>
+
+/* General Footer Styling */
+#my-universal-footer {
+    bottom: 0%;
+    overflow-y: scroll;
+    position: relative;
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text for contrast */
+    padding: 1px 0; /* Padding around the footer */
+}
+
+#my-universal-footer .row {
+    display: flex; /* Flexbox for columns */
+    justify-content: space-between; /* Space between columns */
+    flex-wrap: wrap; /* Wrap columns on smaller screens */
+    max-width: 1200px; /* Limit the width of the footer */
+    margin: 0 auto; /* Center the footer */
+}
+
+#my-universal-footer .col {
+    flex: 1; /* Each column takes equal space */
+    margin: 10px; /* Margin between columns */
+    min-width: 200px; /* Minimum width for each column */
+}
+
+#my-universal-footer .col h3 {
+    margin-bottom: 15px; /* Space below headings */
+    font-size: 18px; /* Font size for headings */
+    color: #ffd700; /* Gold color for headings */
+}
+
+#my-universal-footer .col p, footer .col ul, #my-universal-footer .col form {
+    font-size: 14px; /* Font size for text */
+    line-height: 1.6; /* Line height for readability */
+    color: #ccc; /* Light gray color for text */
+}
+
+#my-universal-footer .col ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+#my-universal-footer .col ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+#my-universal-footer .col ul li a {
+    color: #ffd700; /* Gold color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#my-universal-footer .col ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+#my-universal-footer .col .social-icons i {
+    margin: 10px 5px; /* Margin around social icons */
+    font-size: 18px; /* Font size for icons */
+    color: #ffd700; /* Gold color for icons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#my-universal-footer .col .social-icons i:hover {
+    color: #fff; /* White color on hover */
+}
+
+#my-universal-footer .col form input[type="email"] {
+    padding: 8px; /* Padding inside input field */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+}
+
+#my-universal-footer .col form button {
+    background-color: #ffd700; /* Gold background for button */
+    border: none; /* Remove border */
+    padding: 8px 15px; /* Padding inside button */
+    color: #333; /* Dark text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#my-universal-footer .col form button:hover {
+    background-color: #fff; /* White background on hover */
+    color: #333; /* Dark text color on hover */
+}
+
+#my-universal-footer .col .logo {
+    margin-bottom: 15px; /* Space below logo */
+    border-radius: 50%; /* Circular logo */
+}
+
+#my-universal-footer hr {
+    border-top: 1px solid #ccc; /* Light gray border */
+    margin: 20px 0; /* Space around the horizontal rule */
+}
+
+.foo {
+    text-align: center; /* Center the copyright text */
+    color: #ccc; /* Light gray text color */
+    font-size: 14px; /* Smaller font size */
+    margin-top: 10px; /* Space above the copyright text */
+}
+
+
+</style>
 </head>
 <body>
     <div class="top-nav">
@@ -67,7 +173,79 @@
         </section> 
     </div>
 </body>
-<script type="text/javascript" src="main_n.js"></script>
+<script>
+
+//alert("Greetings from Motaung Johannese Motaung");
+
+//Motaung Links to the content.
+
+const apiLink = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=cb59f014c8c0f6911728fff3e3b277f2&page=1';  // link to the API, works over the web only
+const imgPath = 'https://image.tmdb.org/t/p/w1280';
+const searchApi = 'https://api.themoviedb.org/3/search/movie?&api_key=cb59f014c8c0f6911728fff3e3b277f2&query=';
+
+const userQuery = document.getElementById("section");
+const formInfo = document.getElementById("form");
+const search = document.getElementById("query");
+returnMovies(apiLink);
+
+function returnMovies(url) {
+    fetch(url).then(res => res.json())
+        .then(data => {
+            console.log(data.results);
+            data.results.forEach(element => {
+                const div_card = document.createElement('div');
+                div_card.setAttribute('class', 'card');
+                div_card.setAttribute('data-movie-id', element.id); // Add movie ID for reference
+
+                const div_row = document.createElement('div');
+                div_row.setAttribute('class', 'row');
+
+                const div_column = document.createElement('div');
+                div_column.setAttribute('class', 'column');
+
+                const images = document.createElement('img');
+                images.setAttribute('class', 'thumbnail');
+                images.setAttribute('id', 'image');
+
+                const title = document.createElement('h3');
+                title.setAttribute('id', 'title');
+
+                const mycenter = document.createElement('div');
+                mycenter.className = "centered"; //to access and style this later
+
+                title.innerHTML = `${element.title}`;
+                images.src = imgPath + element.poster_path;
+                mycenter.appendChild(images);
+                div_card.appendChild(mycenter);
+                div_card.appendChild(title);
+                div_column.appendChild(div_card);
+                div_row.appendChild(div_column);
+
+                userQuery.appendChild(div_row);  //main
+
+                // Add event listener to make the movie clickable
+                div_card.addEventListener('click', () => {
+                    alert(`Downloading ${element.title} is not implemented yet!`); 
+                    // You can redirect to a new page with more details or open a modal here
+                    // For example: window.location.href = `details.html?id=${element.id}`;
+                });
+            });
+        });
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    userQuery.innerHTML = ''; // remove old search results 
+
+    const searchItem = search.value;
+    if (searchItem) {
+        returnMovies(searchApi + searchItem);
+        search.value = "";
+    }
+});
+
+
+</script>
 
 <footer>
     <hr>
