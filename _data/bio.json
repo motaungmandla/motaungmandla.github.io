@@ -6,7 +6,7 @@
     "email": "maxphin21@gmail.com",
     "phone": "+266 6397 3129",
     "website": "https://motaungmandla.github.io",
-    "summary": "I am studying Computer Science in the Department of Mathematics and Computer Sciences at the National University of Lesotho. I expect to graduate in 2027.",
+    "summary": "I am studying Computer Science in the Department of Mathematics and Computer Sciences at the National University of Lesotho. I expect to graduate in 2026.",
     "location": { "address": "", "postalCode": "P.O box 500", "city": "Maseru", "countryCode": "LS", "region": "Roma" },
     "profiles": [
       { "network": "github", "username": "motaung247aung", "url": "http://github.com/motaung247aung" }
@@ -17,18 +17,19 @@
   "interests": [
     { "name": "Data Analysis" },
     { "name": "Data Mining" },
-    { "name": "Neural Networks" },
+    { "name": "Machine Learning" },
     { "name": "Software Development" },
-    { "name": "Computer Vision" }
+    { "name": "Deep Learning" },
+    { "name": "Human-Computer Interaction" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "C++", "Perl", "R", "Ruby" ]
+      "keywords": [ "Python", "C/C++", "Java", "R", "Ruby", "MERN stack", "Pytorch", "NLP with Python", "Flask"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Kali Linux", "Git desktop/GitHub", "Shell script", "TI LaunchPad" ]
     }
   ],
   "education": [
