@@ -22,14 +22,19 @@
     { "name": "Deep Learning" },
     { "name": "Human-Computer Interaction" }
   ],
+  "Projects": [
+    { "name": "https://movietree.vercel.app" },
+    { "name": "https://motaung.vercel.app" },
+  ],
+  
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "C/C++", "Java", "R", "Ruby", "MERN stack", "Pytorch", "NLP with Python", "Flask"]
+      "keywords": [ "Dart/Flutter", "Python", "C/C++", "Java", "R", "Ruby", "MERN stack", "Pytorch", "NLP with Python", " python Flask" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Kali Linux", "Git desktop/GitHub", "Shell script", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Kali Linux", "Git desktop/GitHub", "Shell script" ]
     }
   ],
   "education": [
