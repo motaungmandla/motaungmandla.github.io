@@ -25,6 +25,8 @@
   "Projects": [
     { "name": "https://movietree.vercel.app" },
     { "name": "https://motaung.vercel.app" },
+    { "name": "https://motaunginc.vercel.app" },
+    { "name": "https://motaungmandla.github.io" }
   ],
   
   "skills": [
@@ -99,7 +101,7 @@
   ],
   "awards": [
     {
-      "title": "Best Candidate in Mathematics (Matric)",
+      "title": "Overall top Candidate in Mathematics (Matric)",
       "date": "2020",
       "awarder": "DBE, South Africa",
       "summary": ""
