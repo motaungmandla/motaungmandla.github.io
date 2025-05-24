@@ -9,7 +9,7 @@ labels:
   - Agriculture
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/cow.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/cow.png">
 
 Domestic animals have been an integral part of human civilization for millennia, serving multifaceted roles that extend beyond mere companionship. From the loyal dog by our side to the diligent oxen tilling our fields, domestic animals have played crucial roles in shaping human societies and have significantly contributed to our well-being. This essay explores the importance of domestic animals in various aspects of human life, including companionship, agriculture, economy, and emotional well-being.
 
