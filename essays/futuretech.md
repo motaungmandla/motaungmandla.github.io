@@ -9,7 +9,7 @@ labels:
   - Technology
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/robo.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/robo.png">
 
 Artificial Intelligence (AI) has emerged as one of the most transformative technologies of the 21st century, with profound implications for virtually every aspect of human society. As we look to the future, the trajectory of AI development promises both unprecedented opportunities and challenges. From revolutionizing industries to reshaping the way we live and work, the future of AI holds immense potential to drive innovation, enhance productivity, and improve quality of life.
 
