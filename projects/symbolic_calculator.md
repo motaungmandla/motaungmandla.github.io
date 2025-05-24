@@ -19,7 +19,7 @@ Algebraic calculators are essential tools in various fields such as mathematics,
 <hr>
 
 <pre>
-fficiency: Algebraic calculators allow for quick and accurate calculations of complex algebraic expressions, equations, and functions. They can handle large numbers and intricate operations much faster than manual calculations, saving time and effort.
+Efficiency: Algebraic calculators allow for quick and accurate calculations of complex algebraic expressions, equations, and functions. They can handle large numbers and intricate operations much faster than manual calculations, saving time and effort.
 
 Versatility: Algebraic calculators can perform a wide range of mathematical tasks, including arithmetic operations, solving equations, graphing functions, calculating derivatives and integrals, and more. Their versatility makes them invaluable tools for students, professionals, and anyone needing to perform mathematical computations.
 
