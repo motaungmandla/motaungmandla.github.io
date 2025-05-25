@@ -1,4 +1,19 @@
-🧮 Math Chatbot – README.md
+---
+layout: project
+type: project
+image: img/caculator.png
+title: "Algebraic Chatbot"
+# All dates must be YYYY-MM-DD format!
+date: 2025-05-25
+published: true
+labels:
+  - Python
+  - GitHub
+summary: "A chatbot I developed to symplify symbolic mathematics."
+---
+
+<img class="img-fluid" src="../img/sweet.PNG">
+
 Overview
 The Math Chatbot is a context-aware conversational assistant designed to help users solve mathematical problems using natural language input. It integrates with SymPy , a powerful Python library for symbolic mathematics, to provide accurate and detailed solutions to algebraic, calculus, discrete math, and more complex problems.
 
