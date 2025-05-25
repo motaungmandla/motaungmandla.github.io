@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/caculator.png
-title: "Algebraic Chatbot"
+title: "Chatbot"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-25
 published: true
