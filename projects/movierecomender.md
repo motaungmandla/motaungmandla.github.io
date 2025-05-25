@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/caculator.png
-title: "Algebraic Calculator"
+title: "Movie Recommendation System"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-25
 published: true
