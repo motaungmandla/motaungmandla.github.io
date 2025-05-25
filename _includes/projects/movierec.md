@@ -1,3 +1,20 @@
+---
+layout: project
+type: project
+image: img/caculator.png
+title: "Algebraic Calculator"
+# All dates must be YYYY-MM-DD format!
+date: 2025-05-25
+published: true
+labels:
+  - Python
+  - GitHub
+summary: "A movie recommendation system."
+---
+
+<img class="img-fluid" src="../img/Screenshot.png">
+
+
 Movietree – A Movie Recommendation Web App
 A lightweight, responsive movie recommendation web app that fetches data from The Movie Database (TMDb) API using JavaScript . The app is currently under development and aims to provide users with curated movie lists, search functionality, and personalized recommendations.
 
