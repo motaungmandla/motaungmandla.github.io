@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: img/caculator.png
-title: "Algebraic Calculator"
+title: "A movie recommendation system"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-25
 published: true
 labels:
   - Python
   - GitHub
-summary: "A movie recommendation system."
+summary: "A movie recommendation system that uses linear regression from Scikit-learn."
 ---
 
 <img class="img-fluid" src="../img/Screenshot.png">
