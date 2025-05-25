@@ -15,6 +15,7 @@ summary: "A chatbot I developed to symplify symbolic mathematics."
 <img class="img-fluid" src="../img/Capturev.PNG">
 
 Overview
+
 The Math Chatbot is a context-aware conversational assistant designed to help users solve mathematical problems using natural language input. It integrates with SymPy , a powerful Python library for symbolic mathematics, to provide accurate and detailed solutions to algebraic, calculus, discrete math, and more complex problems.
 
 The bot is ideal for students, educators, and professionals who want to:
@@ -43,20 +44,6 @@ Discrete Math
 Statistics
 ✅ Easy Integration
 Built with Python, Flask, and SymPy — ready to deploy on web or mobile platforms
-
-Cody structure.
-math-chatbot/
-├── app.py              # Main chatbot logic
-├── sympy_utils.py      # Math processing with SymPy
-├── chat_interface.py   # Handles input/output
-├── knowledge_base.json # Predefined rules and answers
-├── templates/            # HTML templates (for web version)
-│   └── index.html
-└── README.md           # This file!
-
-
-Step 3: Open browser or terminal interface
-Visit http://localhost:5000 or use command-line interaction.
 
 🧩 Future Enhancements
 Add voice recognition and text-to-speech for accessibility
