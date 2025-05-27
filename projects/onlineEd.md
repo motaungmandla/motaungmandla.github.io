@@ -9,7 +9,7 @@ published: true
 labels:
   - Python
   - GitHub
-summary: "A chatbot I developed to symplify symbolic mathematics."
+summary: "An online school with free courses on new and trending technologies and related mathematical background."
 ---
 
 # Online Education Platform
