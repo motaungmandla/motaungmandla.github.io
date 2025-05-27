@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/caculator.png
-title: "Chatbot"
+title: "Fast Learning"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-25
 published: true
