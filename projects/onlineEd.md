@@ -1,3 +1,17 @@
+---
+layout: project
+type: project
+image: img/caculator.png
+title: "Chatbot"
+# All dates must be YYYY-MM-DD format!
+date: 2025-05-25
+published: true
+labels:
+  - Python
+  - GitHub
+summary: "A chatbot I developed to symplify symbolic mathematics."
+---
+
 # Online Education Platform
 
 ## Overview
