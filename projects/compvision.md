@@ -1,3 +1,21 @@
+---
+layout: project
+type: project
+image: img/caculator.png
+title: "Eye Detector and Overlay"
+# All dates must be YYYY-MM-DD format!
+date: 2025-05-28
+published: true
+labels:
+  - Python
+  - GitHub
+summary: "Face Detector with Eye Overlay Project"
+---
+
+<img class="img-fluid" src="../img/eyesimg.png">
+
+
+
 # Face Detector with Eye Overlay Project
 
 ## Overview
