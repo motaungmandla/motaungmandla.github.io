@@ -49,8 +49,10 @@
       "endDate": "Present",
       "courses": ["Mathematics", "Computer Science",
       ],
-      "Certifications": "Introduction to Cybersecurity, Cisco Networking Academy (June 2025)"
     }
+  ],
+  "Certifications": [
+    {"name": "Introduction to Cybersecurity, Cisco Networking Academy (June 2025)"}
   ],
   "work": [
     {
