@@ -12,7 +12,7 @@ labels:
 summary: "A movie recommendation system."
 ---
 
-<img class="img-fluid" src="../img/shot.png">
+<img class="img-fluid" src="../img/shot.png" alt="IMAGE">
 
 
 Movietree – A Movie Recommendation Web App
