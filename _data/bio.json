@@ -1,125 +1,128 @@
 {
-  "basics": {
-    "name": "Motaung Mandla",
-    "label": "Student",
-    "picture": "https://github.com/motaungmandla.png",
+  "name": "Motaung Mandla",
+  "label": "Student | Aspiring Cybersecurity & ML Engineer",
+  "location": {
+    "city": "Roma",
+    "region": "Maseru",
+    "country": "Lesotho"
+  },
+  "contact": {
     "email": "maxphin21@gmail.com",
     "phone": "+266 6397 3129",
-    "website": "https://motaungmandla.github.io",
-    "summary": "I am studying BSc. Mathematics and Computer Science in the Department of Mathematics and Computer Science(MACS) at the National University of Lesotho. I expect to graduate in 2026.",
-    "location": { "address": "", "postalCode": "P.O box 500", "city": "Maseru", "countryCode": "LS", "region": "Roma" },
-    "profiles": [
-      { "network": "github", "username": "motaungmandla", "url": "http://github.com/motaungmandla" }
-  
-     
+    "website": "https://motaungmandla.github.io", 
+    "github": "https://github.com/motaungmandla" 
+  },
+  "summary": "B.Sc. Mathematics and Computer Science student at the National University of Lesotho (Expected graduation: Spring 2026). Passionate about cybersecurity, machine learning, and full-stack development, I'm continuously building hands-on experience through academic and community-driven tech projects.",
+  "interests": [
+    "Data Analysis",
+    "Data Mining",
+    "Machine Learning",
+    "Software Development",
+    "Deep Learning",
+    "Human-Computer Interaction",
+    "Cybersecurity"
+  ],
+  "projects": [
+    {
+      "name": "MovieTree",
+      "url": "https://movietree.vercel.app", 
+      "description": "Browse and explore movies using TMDb API."
+    },
+    {
+      "name": "Personal Portfolio",
+      "url": "https://motaung.vercel.app", 
+      "description": "Showcase of skills, certifications, and projects."
+    },
+    {
+      "name": "Motaung Inc.",
+      "url": "https://motaunginc.vercel.app", 
+      "description": "Simulated tech startup homepage."
+    },
+    {
+      "name": "GitHub Profile",
+      "url": "https://motaungmandla.github.io", 
+      "description": "Static site with project links and CV."
+    }
+  ],
+  "skills": {
+    "languages_and_frameworks": [
+      "Dart/Flutter",
+      "Python",
+      "C/C++",
+      "Java",
+      "R",
+      "Ruby",
+      "MERN stack",
+      "PyTorch",
+      "NLP with Python",
+      "Flask"
+    ],
+    "toolsets_and_os": [
+      "Windows",
+      "Kali Linux",
+      "Git Desktop/GitHub",
+      "Shell Script"
     ]
   },
-  "interests": [
-    { "name": "Data Analysis" },
-    { "name": "Data Mining" },
-    { "name": "Machine Learning" },
-    { "name": "Software Development" },
-    { "name": "Deep Learning" },
-    { "name": "Human-Computer Interaction"},
-    { "name": "Cyber Security"}
-  ],
-  "Projects": [
-    { "name": "https://movietree.vercel.app" },
-    { "name": "https://motaung.vercel.app" },
-    { "name": "https://motaunginc.vercel.app" },
-    { "name": "https://motaungmandla.github.io" }
-  ],
-  
-  "skills": [
+  "education": {
+    "institution": "National University of Lesotho",
+    "location": "Roma, Lesotho",
+    "degree": "B.Sc. in Mathematics and Computer Science",
+    "startDate": "2022-09-05",
+    "endDate": "2026-06-01",
+    "courses": [
+      "Mathematics",
+      "Computer Science"
+    ]
+  },
+  "certifications": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "Dart/Flutter", "Python", "C/C++", "Java", "R", "Ruby", "MERN stack", "Pytorch", "NLP with Python", " python Flask" ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Kali Linux", "Git desktop/GitHub", "Shell script" ]
+      "name": "Introduction to Cybersecurity",
+      "issuer": "Cisco Networking Academy",
+      "date": "2025-06",
+      "badge": "[![Cisco Certified: Introduction to Cybersecurity](https://img.shields.io/badge/Cisco%20Certified-Cybersecurity-blue)](https://motaungmandla.github.io/certificates/I2CSUpdate20250606-25.pdf)" 
     }
   ],
-  "education": [
+  "experience": [
     {
-      "institution": "National University of Lesotho, Roma, Lesotho",
-      "area": "Computer Science (expected Spring, 2026)",
-      "studyType": "B.Sc",
-      "startDate": "2022-09-05",
-      "endDate": "Present",
-      "courses": ["Mathematics", "Computer Science",
-      ],
-    }
-  ],
-  "Certifications": [
-    {"name": "Introduction to Cybersecurity, Cisco Networking Academy (June 2025)"}
-  ],
-  "work": [
-    {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Machine learning and introduction to artificial intelligence under the guidance of Mr [Moseli Motseohli](https://deepsmoseli.github.io",
-        "Drive, design and build student-community projects at the NUL."
-      ]
+      "role": "Machine Learning & AI Projects",
+      "organization": "National University of Lesotho",
+      "description": "Developed and implemented machine learning models under Mr. Moseli Motseohli."
     },
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone"
-      ]
+      "role": "Student Developer",
+      "organization": "NUL Community Projects",
+      "description": "Designed and built student-focused technology solutions."
+    },
+    {
+      "role": "Technical Support",
+      "organization": "Various",
+      "description": "Remote troubleshooting of software, hardware, and networking issues."
     }
   ],
   "volunteer": [
     {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "role": "Firmware Engineer",
+      "organization": "Weather Sensor Network Project",
+      "description": "Designed firmware for distributed weather sensor network."
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
+      "role": "Infrastructure Maintainer",
+      "organization": "Weather Sensor Network Project",
+      "description": "Maintained custom data collection and storage infrastructure."
     }
   ],
   "awards": [
     {
-      "title": "Overall top Candidate in Mathematics (Matric)",
-      "date": "2020",
-      "awarder": "DBE, South Africa",
-      "summary": ""
+      "title": "Top Candidate in Mathematics (Matric)",
+      "year": 2020,
+      "issuer": "DBE, South Africa"
     },
     {
-      "title": "First place in general academic performance",
-      "date": "2020",
-      "awarder": "Gauteng West District",
-      "summary": ""
+      "title": "1st Place in General Academic Performance",
+      "year": 2020,
+      "issuer": "Gauteng West District"
     }
   ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
+  "references": "Available upon request"
 }
