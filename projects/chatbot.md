@@ -12,7 +12,7 @@ labels:
 summary: "A chatbot I developed to symplify symbolic mathematics."
 ---
 
-<img class="img-fluid" src="../img/Capturev.PNG">
+<img class="img-fluid" src="../img/Capturev.PNG" alt="IMAGE">
 <a href=https://huggingface.co/spaces/MandlaZwane/motaunginc>Find Project here</a>
 
 Overview
