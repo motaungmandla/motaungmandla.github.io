@@ -12,7 +12,7 @@ labels:
 summary: "Face Detector with Eye Overlay Project"
 ---
 
-<img class="img-fluid" src="../img/eyesimg.png">
+<img class="img-fluid" src="../img/eyesimg.png" alt="IMAGE">
 
 
 
